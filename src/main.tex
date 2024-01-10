@@ -1,0 +1,35 @@
+%! Author = heuveljvd
+%! Date = 10-1-2024
+
+
+%------------------------------------
+% Preamble
+\documentclass[11pt]{article}
+%------------------------------------
+
+
+%------------------------------------
+% Packages
+\usepackage{amsmath}
+\usepackage{subfiles} % use seperate .tex files
+\usepackage[round]{natbib} % references with round brackets
+\usepackage{graphicx} % images
+%------------------------------------
+
+% Document
+\begin{document}
+
+    %------------------------------------
+    % Content sections
+    \section{Placeholder}
+    \label{sec:placeholder}
+    \subfile{sections/placeholder.tex}
+
+    %------------------------------------
+    % Bibliography
+    \bibliographystyle{plainnat}
+    \bibliography{main}
+    \clearpage
+
+
+\end{document}
